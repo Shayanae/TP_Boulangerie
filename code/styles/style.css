@@ -1,5 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #ffe8bf; /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #ffe8bf; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 2px solid #f5f4f4; /* creates padding around scroll thumb */
+  }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.imgCarousel{
+    height: 400px;
+}
+.btnCarousel, .btnAdress{
+    background-color: blanchedalmond;
+    border: solid 1px;
+}
+.imgHome{
+    height: 300px;
+    border: solid 2px black;
+    text-decoration: none;
+}
+main{
+    background-color: #f5f4f4;
+    min-height: 950px;
+}
+.inputAdress{
+    width: 60%;
+}
+.bloc{
+    background-color: #c5c5c5;
+    border: solid 2px;
+}
+.btnOrder{
+    background-color: #f5f4f4;
+}
+.btnOrder:hover{
+    background-color: #dbd2d2;
+}
+.btnOrder:active{
+    background-color: #8f8e8e;
+}
+
+
+
+
 h1 {
     font-family: Kaushan Script, serif;
     text-shadow: rgb(137 121 60) -8px 1px 10px;
