@@ -1,0 +1,109 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    /*height: 150px;*/
+    background-color: #ffbf4f;
+    border-color: rgb(129, 109, 79);
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.footer_gauche {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 150px;
+    background-color: #aa9a80;
+    border-color: rgb(129, 109, 79);
+    font-family: Arial;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.text_align_center {
+    text-align: center;
+}
+
+.footer_centre {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 150px;
+    background-color: #997741;
+    border-color: rgb(129, 109, 79);
+    font-family: Arial;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.footer_droite {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    height: 150px;
+    background-color: #aa9a80;
+    border-color: rgb(129, 109, 79);
+    font-family: Arial;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.barre_de_liens {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: 150px;
+    background-color: #a07734;
+    border-color: rgb(129, 109, 79);
+    font-family: Arial;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 10px;
+}
