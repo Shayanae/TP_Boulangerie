@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>Produit</title>
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid">
+            <!--side bar-->
+            <div class="row ">
+                <div class="col-2 sidebar">
+                    <!--debut boulangerie-->
+                    <p class="fs-3">Boulangerie :</p>
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Baguette du fournil</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Baguette classique</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les pains de campagne</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les pains blanc</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les pains du fournil</label>
+                    </div>
+                    <!--fin boulangerie-->
+
+                    <!--Debut viennoiseries-->
+                    <p class="fs-3 mt-5">Viennoiseries :</p>
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les croissants</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les petits pains</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les brioches</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les chaussons aux pommes</label>
+                    </div>
+                    <!--Fin viennoiseries-->
+
+                    <!--Debut sandwicheries-->
+                    <p class="fs-3 mt-5">Sandwicheries :</p>
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les sandwichs froids</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input fs-4" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label fs-4" for="flexCheckDefault">Les sandwichs chauds </label>
+                    </div>
+                    <!--Fin sandwicheries-->
+                </div>
+
+                <!--fin side bar-->
+
+                <!--Debut carte produits-->
+                <div class="col-10">
+                    <p class="fs-2 text-center">Les Sandwichs froids</p>
+                    <div class="row justify-content-evenly">
+                        <div class="col-2 mt-4 p-0 mx-5">
+                            <div class="card shadow mb-5 rounded mx-0" style="width:250 px; height:500px;">
+                                <img src="../images/product/SandwichJambon.jpg" class="card-img-top"
+                                    alt="sandwich jambon">
+                                <div class="card-body corp ">
+                                    <div class="bouton">
+                                        <p class="card-title fs-4">Le sandwich jambon</p>
+                                        <p class="card-text fs-6">Découvrez notre sandwich au jambon avec sa salade,ses
+                                            tomates et sa merveilleuse sauce mayonnaise.</p>
+                                    </div>
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn ">-</button>
+                                        <button type="button" class="btn border-0" disabled">1</button>
+                                        <button type="button" class="btn ">+</button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                            au
+                                            panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 mt-4 p-0 mx-5">
+                            <div class="card shadow mb-5 bg-body rounded mx-0" style="width: 250 px; height: 500px;">
+                                <img src="../images/product/SandwichLégumes.jpg" class="card-img-top"
+                                    alt="sandwich légume">
+                                <div class="card-body corp ">
+                                    <div class="bouton">
+                                        <p class="card-title fs-4">Le sandwich légumes</p>
+                                        <p class="card-text fs-6">Découvrez notre sandwich aux légumes avec ses tomates,
+                                            son
+                                            parmesan, sa salade, son confit d'oignon et sa sauce aux herbes.</p>
+                                    </div>
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn ">-</button>
+                                        <button type="button" class="btn border-0" disabled">1</button>
+                                        <button type="button" class="btn ">+</button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                            au
+                                            panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 mt-4 p-0 mx-5">
+                            <div class="card shadow mb-5 bg-body rounded mx-0" style="width: 250 px; height: 500px;">
+                                <img src="../images/product/SandwichPoulet.jpg" class="card-img-top"
+                                    alt="sandwich poulet">
+                                <div class="card-body corp ">
+                                    <div class="bouton">
+                                        <p class="card-title fs-4">Le sandwich poulet</p>
+                                        <p class="card-text fs-6">Découvrez notre sandwich au poulet avec sa salade son
+                                            cheddar et sa magnifique sauce fumé.</p>
+                                    </div>
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn ">-</button>
+                                        <button type="button" class="btn border-0" disabled">1</button>
+                                        <button type="button" class="btn ">+</button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                            au
+                                            panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-2 mt-4 p-0 mx-5">
+                            <div class="card shadow mb-5 bg-body rounded mx-0" style="width: 250 px; height: 500px;">
+                                <img src="../images/product/SandwichMorta.jpg" class="card-img-top" alt="sandwich thon">
+                                <div class="card-body corp ">
+                                    <div class="bouton">
+                                        <p class="card-title fs-4">Sandwich mortadelle</p>
+                                        <p class="card-text fs-6">Découvrez notre sandwich mortadelle, sa délicieuse
+                                            sauce
+                                            mayonnaise avec sa salade, son fromage et ses oeufs.</p>
+                                    </div>
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn ">-</button>
+                                        <button type="button" class="btn border-0" disabled>1</button>
+                                        <button type="button" class="btn ">+</button>
+                                    </div>
+                                    <div class="position-absolute bottom-0 end-0">
+                                        <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                            au
+                                            panier</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container-fluid">
+                        <p class="fs-2 text-center">Les pains de campagne</p>
+                        <div class="row justify-content-evenly">
+                            <div class="col-2 mt-4 p-0 mx-5">
+                                <div class="card shadow mb-5 bg-body rounded mx-0"
+                                    style="width: 250 px; height: 500px;">
+                                    <img src="../images/product/painancien.jpg" class="card-img-top"
+                                        alt="pain à l'ancienne">
+                                    <div class="card-body corp ">
+                                        <div class="bouton">
+                                            <p class="card-title fs-4">Pain à l'ancienne</p>
+                                            <p class="card-text fs-6">Découvrez notre pains préparés à partir d'une
+                                                farine
+                                                sans additifs,et du levain</p>
+                                        </div>
+                                        <div class="btn-group " role="group" aria-label="Basic example">
+                                            <button type="button" class="btn">-</button>
+                                            <button type="button" class="btn border-0" disabled>1</button>
+                                            <button type="button" class="btn">+</button>
+                                        </div>
+                                        <div class="position-absolute bottom-0 end-0">
+                                            <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                                au
+                                                panier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 mt-4 p-0 mx-5">
+                                <div class="card shadow mb-5 bg-body rounded mx-0"
+                                    style="width: 250 px; height: 500px;">
+                                    <img src="../images/product/paincampagne.jpg" class="card-img-top"
+                                        alt="pain complet">
+                                    <div class="card-body corp ">
+                                        <div class="bouton">
+                                            <p class="card-title fs-4">Pain complet</p>
+                                            <p class="card-text fs-6">Découvrez notre pain complet qui est un pain
+                                                fabriqué
+                                                à partir de farine complète.</p>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn">-</button>
+                                            <button type="button" class="btn border-0" disabled>1</button>
+                                            <button type="button" class="btn">+</button>
+                                        </div>
+                                        <div class="position-absolute bottom-0 end-0">
+                                            <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                                au
+                                                panier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 mt-4 p-0 mx-5">
+                                <div class="card shadow mb-5 bg-body rounded mx-0"
+                                    style="width: 250 px; height: 500px;">
+                                    <img src="../images/product/paincereale.jpg" class="card-img-top"
+                                        alt="pain aux céréales">
+                                    <div class="card-body corp ">
+                                        <div class="bouton">
+                                            <p class="card-title fs-4">Pain aux céréales</p>
+                                            <p class="card-text fs-6">Découvrez notre pain aux céréales qui est un pain
+                                                élaboré avec plusieurs céréales, ainsi qu'avec une sélection de graines.
+                                            </p>
+                                        </div>
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn">-</button>
+                                            <button type="button" class="btn border-0" disabled>1</button>
+                                            <button type="button" class="btn">+</button>
+                                        </div>
+                                        <div class="position-absolute bottom-0 end-0">
+                                            <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                                au
+                                                panier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-2 mt-4 p-0 mx-5">
+                                <div class="card shadow mb-5 bg-body rounded mx-0"
+                                    style="width: 250 px; height: 500px;">
+                                    <img src="../images/product/painNoisette.jpg" class="card-img-top"
+                                        alt="pain noisette">
+                                    <div class="card-body corp ">
+                                        <div class="bouton">
+                                            <p class="card-title fs-4">Pain à la noisette</p>
+                                            <p class="card-text fs-6"> Découvrez notre pain complet à la noisette qui
+                                                est un
+                                                pain fabriqué à partir de farine complète auqeul on ajoute des
+                                                noisettes.
+                                            </p>
+                                        </div>
+                                        <div class="btn-group " role="group" aria-label="Basic example">
+                                            <button type="button" class="btn">-</button>
+                                            <button type="button" class="btn border-0" disabled>1</button>
+                                            <button type="button" class="btn">+</button>
+                                        </div>
+                                        <div class="position-absolute bottom-0 end-0">
+                                            <button type="button" class="btn btn-danger p-2 float-end fs-4 m-2">Ajouter
+                                                au
+                                                panier</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!--Fin carte produits-->
+        </div>
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

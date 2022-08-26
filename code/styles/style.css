@@ -82,6 +82,13 @@ main{
 .inputAdress{
     width: 60%;
 }
+.sidebar{
+    background-color: #d39b39;
+}
+.bouton{
+    height: 200px;
+}
+
 .bloc{
     background-color: #c5c5c5;
     border: solid 2px;
@@ -95,7 +102,10 @@ main{
 .btnOrder:active{
     background-color: #8f8e8e;
 }
-
+.cartImg{
+    background-color: #c5c5c5;
+    border: solid 2px;
+}
 
 
 
