@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+h1 {
+    font-family: Kaushan Script, serif;
+    text-shadow: rgb(137 121 60) -8px 1px 10px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.f-navbar {
+    background-color:#d39b39;
+}
+
+.btn1 {
+    color:  #ffe8bf;
+    background-color:  #ffe8bf;
+}
+
+.claire {
+    color:  #ffe8bf;
+}
