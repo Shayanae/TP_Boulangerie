@@ -63,7 +63,7 @@ table {
 .imgCarousel{
     height: 400px;
 }
-.btnCarousel{
+.btnCarousel, .btnAdress{
     background-color: blanchedalmond;
     border: solid 1px;
 }
@@ -75,4 +75,7 @@ table {
 main{
     background-color: #f5f4f4;
     min-height: 950px;
+}
+.inputAdress{
+    width: 60%;
 }
