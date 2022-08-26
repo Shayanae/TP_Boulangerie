@@ -79,3 +79,16 @@ main{
 .inputAdress{
     width: 60%;
 }
+.bloc{
+    background-color: #c5c5c5;
+    border: solid 2px;
+}
+.btnOrder{
+    background-color: #f5f4f4;
+}
+.btnOrder:hover{
+    background-color: #dbd2d2;
+}
+.btnOrder:active{
+    background-color: #8f8e8e;
+}
